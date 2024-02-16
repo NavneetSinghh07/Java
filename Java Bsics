@@ -1,0 +1,235 @@
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+// import java.util.*;
+// public class Main
+// {
+// 	public static void main(String[] args) {
+// 		System.out.println("Hello World");
+// 		String name = "Navnet";
+// 		int a = 25;
+// 		int b = 48;
+// 		int sum = a+b;
+// 		int mul = a*b;
+// 		System.out.println(sum);
+// 		System.out.println(mul);
+		
+// 		Scanner sc = new Scanner(System.in);
+// 		String namee = sc.nextLine(); //for string input
+// 		System.out.println(namee);
+		
+// 		// sc.nextInt() for int input
+// 		// sc.nextFloat() for float input
+// 	}
+// }
+
+
+// Take two variable input and print their sum;
+
+// import java.util.*;
+// public class Main{
+//     public static void main(String[] args){
+//         Scanner sc = new Scanner(System.in);
+//         int a = sc.nextInt();
+//         int b = sc.nextInt();
+//         int sum = a + b;
+//         System.out.println(sum);
+//     }
+// }
+
+// CONDITIONALS STATEMENTS
+//To check age
+
+// import java.util.*;
+
+// public class Main{
+//     public static void main(String[] args){
+//         Scanner sc = new Scanner(System.in);
+//         int age = sc.nextInt();
+//         if(age>=18){
+//             System.out.println("You are adult. Your age is " + age);
+//         }
+//         else{
+//             System.out.println("You are minor. Your age is " + age);
+//         }
+//     }
+// }
+
+//To check odd even 
+
+// import java.util.*;
+
+// public class Main{
+//     public static void main(String[] args){
+//         Scanner sc = new Scanner(System.in);
+//         int num = sc.nextInt();
+        
+//         if(num%2==0){
+//             System.out.println("Even : " + num);
+//         }
+//         else{
+//             System.out.println("Odd : " + num);
+//         }
+//     }
+// }
+
+
+// To check num greater, equal or small
+
+// import java.util.*;
+
+// public class Main{
+//     public static void main(String[] args){
+//         Scanner sc = new Scanner(System.in);
+//         int a = sc.nextInt();
+//         int b = sc.nextInt();
+//         if(a==b){
+//             System.out.println("Equal hai");
+//         } else if(a>b){
+//                 System.out.println("A barda hai");
+//         }
+            
+//         else{
+//             System.out.println("B barda hai");
+//         }
+        
+//     }
+// }
+
+// Switch Case
+
+// import java.util.*;
+
+// public class Main{
+//     public static void main(String[] args){
+//         Scanner sc = new Scanner(System.in);
+//         int num = sc.nextInt();
+   
+//         switch(num){
+//             case 1: System.out.println("Hello");
+//             break;
+//             case 2: System.out.println("Namaste");
+//             break;
+//             case 3: System.out.println("Bonjoue");
+//             break;
+//             default: System.out.println("Invalid button");
+            
+//         }
+//     }
+// }
+
+// Calculator 
+
+// import java.util.*;
+
+// public class Main{
+//     public static void main(String[] args){
+//         Scanner sc = new Scanner(System.in);
+        
+//         System.out.println("Press 1 for addition");
+//         System.out.println("Press 2 for diff");
+//         System.out.println("Press 3 for multiply");
+//         System.out.println("Press 4 for division");
+        
+//         int c = sc.nextInt();
+        
+//         System.out.println("Enter numbers");
+        
+//         int a= sc.nextInt();
+//         int b = sc.nextInt();
+        
+//         switch(c){
+//             case 1: System.out.println(a+b);
+//             break;
+//             case 2: System.out.println(a-b);
+//             break;
+//             case 3: System.out.println(a*b);
+//             break;
+//             case 4: System.out.println(a/b);
+//             break;
+//             default: System.out.println("Wrong key");
+//         }
+
+//     }
+// }
+
+// LOOPS
+
+// 1. FOR LOOP
+
+// public class Main{
+//     public static void main(String[] args){
+//         for(int i = 0; i<=10; i++){
+//             System.out.println("Hello World");
+//         }
+//     }
+// }
+
+// While LOOP
+
+// public class Main{
+//     public static void main(String[] args){
+//         int i = 0;
+//         while(i<11){
+//             System.out.println(i);
+//             i++;
+//         }
+//     }
+// }
+
+// do while
+
+// public class Main{
+//     public static void main(String[] args){
+//         int i =0;
+//         do{
+//             System.out.println(i);
+//             i++;
+//         }while(i<11);
+//     }
+// }
+
+
+// Sum of first n natural numbers
+
+// import java.util.*;
+
+// public class Main{
+//     public static void main(String[] args){
+//         Scanner sc = new Scanner(System.in);
+//         int n = sc.nextInt();
+//         int sum = 0;
+//         for(int i=0; i<=n; i++){
+//             sum+=i;
+//         }
+//         System.out.println(sum);
+//     }
+// }
+
+// Table of the Input numbers
+
+import java.util.*;
+
+public class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        
+        int num = sc.nextInt();
+        
+        System.out.println("Here is the table of your selected number : " + num);
+        
+        for(int i = 0; i<=10; i++){
+            System.out.println(num + " * " + i + " = " + num*i);
+        }
+    }
+}
+
+
+
+
+
